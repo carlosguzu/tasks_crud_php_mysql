@@ -1,0 +1,36 @@
+# Ignorar archivo de configuración con credenciales
+db.php
+
+# Directorios de dependencias
+/vendor/
+/node_modules/
+
+# Archivos de configuración del sistema
+/.env
+
+# Archivos y carpetas relacionados con IDEs y editores
+/.vscode/
+/.idea/
+*.sublime-workspace
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de salida y archivos temporales
+/tmp/
+/cache/
+/log/
+/debug/
+
+# Archivos de paquetes
+/composer.lock
+/package-lock.json
+/yarn.lock
+
+# Exportaciones de bases de datos
+*.sql
+*.sql.gz
+
+# Otros archivos y directorios que se generan durante la ejecución o el desarrollo
+/public/uploads/
